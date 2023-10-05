@@ -1,6 +1,6 @@
 /*
-Author: Maria Cruz
-Date: Current Date
+Author: Andrew Popovic
+Date: 10/5/2023
 File Name: styles.css
 */
 
@@ -58,9 +58,36 @@ main a {
 }
 
 /* Orange */
-
+.orange-hex{
+	background-color: #fcba03;
+}
+.orange-rgb{
+	background-color: rgb(252, 186, 3);
+}
+.orange-hsl{
+	background-color: hsl(44, 98%, 50%);
+}
 
 /* Purple */
-
-
+.purple-hex{
+	background-color: #e303fc;
+}
+.purple-rgb{
+	background-color: rgb(227, 3, 252);
+}
+.purple-hsl{
+	background-color: hsl(294, 98%, 50%);
+}
 /* Green */
+.green-hex{
+	background-color: #09ed1c;
+}
+.green-rgb{
+	background-color: rgb(9, 237, 28);
+}
+.green-hsl{
+	background-color: hsl(125, 93%, 48%);
+}
+footer {
+	background-color: #00ccff;
+}
