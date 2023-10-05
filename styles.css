@@ -26,8 +26,8 @@ nav{
 	padding: 10%;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	font-size: 15px;
-	text-align: left;
+	font-size: 25px;
+	text-align: center;
 	color: #9038ab;
 	font-family: verdana, Arial, sand serif;
 	border: 3px platinum;
@@ -55,14 +55,14 @@ nav li{
 nav li a{
 	display: block;
 	color: #9038ab;
-	text-align: left;
+	text-align: center;
 	padding: 1em 2em;
 	text-decoration: underline;
 }
 #project ul{
 	list-style-type: none;
 	margin: 0;
-	text-align: left;
+	text-align: center;
 }
 #project li{
 	display: inline-block;
