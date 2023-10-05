@@ -48,14 +48,14 @@ nav li{
 	border: 2px platinum;
 	border-width: 15px;
 	display: inline-block;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-family: verdana, Arial, sans-serif;
 	font-weight: normal;
 }
 nav li a{
 	display: block;
 	color: #9038ab;
-	text-align: center;
+	text-align: left;
 	padding: 1em 2em;
 	text-decoration: underline;
 }
