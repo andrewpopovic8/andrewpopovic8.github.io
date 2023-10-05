@@ -32,7 +32,6 @@ nav{
 	font-family: verdana, Arial, sand serif;
 	border: 3px platinum;
 	border-width: 15px;
-	background-color: #C0C0C0;
 	border-radius: 10px;
 	width: 45%;
 	margin: 3em 1em 0 0;
@@ -48,7 +47,6 @@ nav li{
 	padding-bottom: 15px;
 	border: 2px platinum;
 	border-width: 15px;
-	background-color: #716f80;
 	display: inline-block;
 	font-size: 2em;
 	font-family: verdana, Arial, sans-serif;
