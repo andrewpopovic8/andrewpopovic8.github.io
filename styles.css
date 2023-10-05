@@ -23,7 +23,7 @@ nav{
 	padding: 10%;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	font-size: 10px;
+	font-size: 20px;
 	text-align: center;
 	color: #9038ab;
 	font-family: verdana, Arial, sand serif;
@@ -47,7 +47,7 @@ nav li{
 	border-width: 15px;
 	background-color: #716f80;
 	display: inline-block;
-	font-size:1.50em;
+	font-size: 2em;
 	font-family: verdana, Arial, sans-serif;
 	font-weight: normal;
 }
