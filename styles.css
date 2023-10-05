@@ -12,7 +12,7 @@ header {
     color: #00ccff;
     font-family: verdana, Arial, sand serif;
     border: 3px platinum;
-    border-width: 6px;
+    border-width: 15px;
     background-color: #C0C0C0;
     border-radius: 2px;
 }
@@ -21,15 +21,15 @@ h1{
 }
 nav{
 	padding: 10%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 10px;
 	text-align: center;
 	color: #9038ab;
 	font-family: verdana, Arial, sand serif;
-	border: 2px platinum;
-	border-width: 6px;
-	background-color: #716f80;
+	border: 3px platinum;
+	border-width: 10px;
+	background-color: #C0C0C0;
 	border-radius: 10px;
 	width: 45%;
 	margin: 3em 1em 0 0;
