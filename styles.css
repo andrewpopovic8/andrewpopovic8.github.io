@@ -3,6 +3,9 @@ head, h1, h2, body, main{
 	font-family: verdana, Arial, sans serif;
 	font-style: normal;
 }
+html {
+	background-color: #000000;
+}
 header {
     padding: 10%;
     padding-top: 20px;
