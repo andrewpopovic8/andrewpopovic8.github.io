@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- 
+Student's Name
+Current Date 
+-->
+<html lang="en">
+<head>
+	<title>Position</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/extend05.css">
+</head>
+<body>
+
+	<div id="container">
+    
+        <!-- Use the header area for the website name or logo -->
+        <header>
+            <h1>Working with Positions</h1>
+        </header>
+
+        <!-- Use the main area to add the main content of the webpage -->
+        <main>
+            
+            <div class="box sticky">
+                
+                <h2>Sticky</h2>
+                <p>This is an example of an element with a sticky position. Its position is based on the user's scroll position.</p>
+                <!-- Use the empty paragraph element below to briefly explain how to use the sticky position. -->
+                <p>You apply position: sticky; to an element along with a top , left , right , or bottom threshold and it will “stick” in that position when the threshold is passed, as long as there is room to move within the parent container.</p>
+                
+            </div>
+            
+            <div class="box relative">
+                
+                <h2>Relative</h2>
+                <p>This is an example of an element with a relative position. It can move around a little, depending on the viewport, but it is in a position relative to itself.</p>
+                <!-- Use the empty paragraph element below to identify the values you used for the top and left properties and how it affected the relative box. -->
+                <p>The top, right, bottom, and left properties specify offsets from the edges of the element's containing block.</p>
+                
+            </div>
+            
+            <div class="box fixed">
+            
+                <h2>Fixed</h2>
+                <p>This is an example of an element with a fixed position. Its position is relative to the viewport.</p>
+                <!-- Use the empty paragraph element below to identify the values you used for the top and right properties and how it affected the fixed box. -->
+                <p>The top property determines the space between an element's outer margin of the top edge and the inner border of the top edge of its contained block when the position is set to absolute or fixed.</p>
+                
+            </div>
+            
+            <div class="box absolute">
+                
+                <h2>Absolute</h2>
+                <p>This is an example of an element with an absolute position. It is similar to the fixed position; however, it is positioned relative to the closest parent element.</p>
+                <!-- Use the empty paragraph element below to identify the values you used for the bottom and right properties and how it affected the absolute box. -->
+                <p>The CSS @bottom-right-corner at-rule is used to style the bottom-right-corner page-margin box in paged media.</p>
+                
+            </div>
+            
+        </main>
+
+	</div>
+	
+</body>
+</html>
