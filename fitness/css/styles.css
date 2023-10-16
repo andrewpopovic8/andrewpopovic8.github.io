@@ -1,22 +1,23 @@
 /*
 Author: Andrew Popovic
-Date: October 10, 2023
+Date: October 16, 2023
 */
 
 /*css reset*/
 body, header, nav, main, footer, h1, div, img, ul{
 	margin: 0;
 	padding: 0;
-	border: 0
+	border: 0;
 }
+
 body{
 	background-color: #000;
 }
-img{
-	max-width: 100%;
-	display: block;
+	img{
+		max-width: 100%;
+		display: block;
 }
-/*Style rules for mobile viewport*/
+/* mobile devices formatting*/
 header{
 	position: -webkit-sticky;
 	position: sticky;
@@ -34,7 +35,7 @@ nav{
 main{
 	background-color: #fff;
 	padding: 2%;
-	font-size: 1.15em;
+	font-size: 1.5em;
 	font-family: 'Roboto Slab', serif;
 }
 .tel-link{
@@ -69,26 +70,15 @@ main{
 }
 .round{
 	border-radius: 8px;
+
 }
-/*#exercises{
-	clear: left;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
-	background-color: #f2f2f2;
-	padding: 1% 2%;
-}
-#exercises dt{
-	font-weight: bold;
-}
-#exercises dd{
-	padding: .5% 1% 2% 0;
-}*/
+
 #contact{
 	text-align: center;
 }
 #contact .contact-email-link{
 	text-decoration: none;
-	color: #660; /*666600*/
+	color: #660;/*66600*/
 }
 .map{
 	border: 2px solid #000;
@@ -100,12 +90,13 @@ nav ul{
 	text-align: center;
 }
 nav li{
-	font-size: 1.5em;
+	font-size:1.5em;
 	font-family: 'Francois One', sans-serif;
 	border-top: 1px solid #fff;
 }
 nav li:first-child{
 	border-top: none;
+
 }
 nav li a{
 	display: block;
@@ -114,12 +105,120 @@ nav li a{
 	text-decoration: none;
 }
 
-/*show mobile class, hide tablet-desktop class*/
+/*Show mobile class, hide tablet desktop class*/
 .mobile{
 	display: block;
 }
 .tablet-desktop{
 	display: none;
+}
+@media screen and (min-width: 630px), print {
+	/*Tablet Viewport: show tablet-desktop class, hide mobile class*/
+	.tablet-desktop{
+		display: block;
+	}
+	.mobile{
+		display: none;
+	}
+	header{
+		position: static;
+		padding-bottom: 2%;
+	}
+	nav li{
+		border-top: none;
+		display: inline-block;
+		border-right: 1px solid #fff;
+	}
+	nav li:last-child{
+		border-right: none;
+	}
+	nav li a{
+		padding: .1em .75em;
+	}
+
+	/*tablet viewport: main*/
+	main ul{
+		margin: 0 0 4% 10%;
+	}
+	#exercises{
+		clear: left;
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+		background-color: #f2f2f2;
+		padding: 1% 2%;
+		background: linear-gradient(to right, #ccc, #fff)
+	}
+	#exercises dt{
+		font-weight: bold;
+	}
+	#exercises dd{
+		padding: .5% 1% 2% 0;
+	}
+	.tel-num{
+		font-size:1.25em;
+		
+	}
+	.map{
+		width: 600px;
+		height: 450px;
+	}
+}
+
+/*Media Query for desktop viewport*/
+@media screen and (min-width: 1015px), print{
+	header{
+		float: left;
+		width: 25%;
+		padding-bottom: 0;
+	}
+	nav{
+		float: right;
+		width: 70%;
+		margin: 4em 1em 0 0;
+	}
+	nav ul{
+		text-align: right;
+	}
+	nav li{
+		border:none;
+	}
+	nav li a{
+		padding: .5em 1em;
+	}
+	nav li a:hover{
+		color: #000;
+		background-color: #fff;
+		
+	}
+	main{
+		clear: left;
+	}
+	main h1{
+		font-size: 1.8em;
+	}
+	#weights, #cardio, #training{
+		width: 29%;
+		float: left;
+		margin: 0 2%;
+
+	}
+	#exercises{
+		clear: left;
+	
+	}
+}
+@media screen and (min-width: 1921px){
+	#container{
+		width: 1920px;
+		margin: 0 auto;
+	}
+}
+
+@media print{
+	body{
+	background-color: #fff;
+	color: #000;
+	}
 }
 
 footer p{
