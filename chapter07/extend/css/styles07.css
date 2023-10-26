@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Andrew Popovic
+Date: 10/26/2023
+File Name: styles.css
 */
 
 /* CSS Reset */
@@ -38,4 +38,12 @@ aside {
 footer {
 	font-size: .70em;
 	text-align: center;
+}
+article{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	margin: 2%;
+	padding: 4%;
+	box-shadow: 5px 5px 12px gray;
 }
