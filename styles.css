@@ -1,78 +1,103 @@
-head, h1, h2, body, main{
-	color: #9038ab;
-	font-family: verdana, Arial, sans serif;
-	font-style: normal;
-}
-html {
+html{
 	background-color: #000000;
 }
-header {
-    padding: 10%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 15px;
-    text-align: center;
-    color: #00ccff;
-    font-family: verdana, Arial, sand serif;
-    border: 3px platinum;
-    border-width: 15px;
-    background-color: #C0C0C0;
-    border-radius: 2px;
+/*mobile format*/
+
+head, h1, h2, body, main{
+	color: #5c38ab;
+	font-family: 'Almarai', sans-serif;
+	font-style: oblique;
+}
+header{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 35px;
+	text-align: center;
+	color: #5c38ab;
+	font-family: 'Almarai', sans-serif;
+	border: 2px ridge #000;
+	border-width: 10px;
+	background-color: #000000;
+	border-radius: 5px;
 }
 h1{
-	font-size: 35px;
+	font-size: 25px;
 }
 nav{
-	padding: 5%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 20px;
-	text-align: left;
-	color: #9038ab;
-	font-family: verdana, Arial, sand serif;
-	border: 3px platinum;
-	border-width: 15px;
-	border-radius: 10px;
-	width: 80%;
-	margin: 3em 1em 0 0;
+	
+	text-align: center;
+	color: #5c38ab;
+	font-family: 'Almarai', sans-serif;
+	
 }
 nav ul{
+	
 	list-style-type: none;
 	margin: 0;
 	text-align: left;
 }
 nav li{
-	padding: 5%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border: 2px platinum;
-	border-width: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 2px ridge #000;
+	border-width: 5px;
+	background-color: #000000;
 	display: inline-block;
-	font-size: 1.5em;
-	font-family: verdana, Arial, sans-serif;
+	font-size: 1.25em;
+	font-family: 'Almarai', sans-serif;
 	font-weight: normal;
+	box-shadow: 5px 5px 5px #000;
+	border-radius: 10px;
 }
 nav li a{
 	display: block;
-	color: #9038ab;
-	text-align: left;
-	padding: 1em 2em;
-	text-decoration: underline;
+	color: #5c38ab;
+	padding: 8px;
+	text-decoration: none;
+}
+nav li a:hover{
+	color: #fff;
 }
 #project ul{
 	list-style-type: none;
 	margin: 0;
-	text-align: center;
+	text-align: left;
 }
 #project li{
 	display: inline-block;
-	font-size:1.75em;
+	font-size:1.25em;
 	font-family: monospace, Arial, sans-serif;
 	font-weight: bold;
 }
 #project li a{
 	display: block;
-	color: #38ab57;
+	color: #5c38ab;
 	text-align: left;
 	padding: .5em 1em;
 	text-decoration: none;
+}
+}
+.intro{
+	text-align: center;
+}
+.about-text section{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	margin: 2%;
+	padding: 4%;
+	box-shadow: 5px 5px 12px #5c38ab;
+}
+.about-titles{
+	text-align: center;
+}
+}
+}
+/*desktop format*/
+@media screen and (min-width: 1015px), print{
+	h1{
+		font-size: 60px
+	}
+
+
+}
