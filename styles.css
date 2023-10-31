@@ -42,9 +42,9 @@ nav ul{
 	text-align: left;
 }
 nav li{
-	padding: 10%;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border: 2px platinum;
 	border-width: 15px;
 	display: inline-block;
