@@ -17,7 +17,7 @@ header{
 	font-family: 'Almarai', sans-serif;
 	border: 2px ridge #000;
 	border-width: 10px;
-	background-color: #000000;
+	background-color: #D3D3D3;
 	border-radius: 5px;
 }
 h1{
@@ -41,7 +41,7 @@ nav li{
 	padding-bottom: 5px;
 	border: 2px ridge #000;
 	border-width: 5px;
-	background-color: #000000;
+	background-color: #D3D3D3;
 	display: inline-block;
 	font-size: 1.25em;
 	font-family: 'Almarai', sans-serif;
