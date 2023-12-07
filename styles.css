@@ -103,6 +103,12 @@ nav li a:hover{
         font-weight: bold;
         padding: 1%;
 	color: #036bfc;
-
-
 }
+table{
+		border: 2px solid #fff;
+		border-collapse: collapse;
+		margin: 0 auto;
+		width: 70%;
+		height: 150px;
+		color: #fff;
+	}
