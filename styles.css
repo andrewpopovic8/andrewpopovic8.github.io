@@ -91,10 +91,8 @@ nav li a:hover{
 .about-titles{
 	text-align: center;
 }
-}
-}
 /*desktop format*/
-@media screen and (min-width: 1015px), print{
+/*@media screen and (min-width: 1015px), print{*/
 	h1{
 		font-size: 100px;
 	}
