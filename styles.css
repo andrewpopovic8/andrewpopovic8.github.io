@@ -96,7 +96,7 @@ nav li a:hover{
 /*desktop format*/
 @media screen and (min-width: 1015px), print{
 	h1{
-		font-size: 60px
+		font-size: 100px;
 	}
 	caption{
         font-size: 1.5em;
